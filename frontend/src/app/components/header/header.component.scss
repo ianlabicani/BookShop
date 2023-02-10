@@ -1,0 +1,12 @@
+nav {
+  outline: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  h1 {
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+  }
+}

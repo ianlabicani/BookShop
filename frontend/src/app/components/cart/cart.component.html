@@ -1,0 +1,7 @@
+<h1 *ngIf="!books.length">No books</h1>
+<app-book
+  (bookEmitter)="removeBook(book)"
+  *ngFor="let book of books"
+  [book]="book"
+  [text]="'Remove From Cart'"
+></app-book>
